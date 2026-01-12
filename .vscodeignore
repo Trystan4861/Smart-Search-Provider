@@ -1,0 +1,7 @@
+src/
+node_modules/
+.vscode/
+*.ts
+tsconfig.json
+*.code-workspace
+*.vsix
