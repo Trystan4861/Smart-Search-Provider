@@ -1,0 +1,38 @@
+{
+  "name": "smart-search-provider",
+  "displayName": "Smart Search Provider",
+  "icon": "smart_search.png",
+  "description": "Trim trailing spaces from search queries",
+  "version": "1.0.0",
+  "publisher": "trystan4861",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "activationEvents": [ ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "smartSearch.find",
+        "title": "Smart Search (Trim trailing spaces)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "smartSearch.find",
+        "key": "ctrl+shift+f"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trystan4861/Smart-Search-Provider"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/vscode": "^1.85.0"
+  }
+}
