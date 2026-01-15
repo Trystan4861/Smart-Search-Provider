@@ -1,4 +1,4 @@
-![Smart Search Extension Cover](smart_search.jpg)
+![Smart Search Extension Cover](src/assets/smart_search.jpg)
 
 # Smart Search Provider
 

@@ -1,7 +1,7 @@
 {
   "name": "smart-search-provider",
   "displayName": "Smart Search Provider",
-  "icon": "smart_search.png",
+  "icon": "./src/assets/smart_search.png",
   "description": "Trim trailing spaces from search queries",
   "version": "1.0.0",
   "publisher": "trystan4861",
